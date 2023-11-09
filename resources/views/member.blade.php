@@ -57,7 +57,7 @@
                             <td>
                             <form action="{{ route('edit_member', $member->id) }}" method="GET">
                                     @csrf
-                                    <button type="submit" class="btn btn-success">Edit</button>
+                                    <button type="submit" class="btn btn-primary">Edit</button>
                                 </form>
                             </td>
                             <td>
