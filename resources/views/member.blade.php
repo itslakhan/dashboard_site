@@ -24,8 +24,8 @@
             <!-- Sidebar -->
             <div class="col-2">
                 <div class="list-group">
-                    <a href="{{ route('trainer_list') }}" class="list-group-item list-group-item-action">View1 Trainers</a>
-                    <a href="{{ route('member_list') }}" class="list-group-item list-group-item-action">View1 Members</a>
+                    <a href="{{ route('trainer_list') }}" class="list-group-item list-group-item-action">View1 Trainers1</a>
+                    <a href="{{ route('member_list') }}" class="list-group-item list-group-item-action">View1 Members1</a>
                 </div>
             </div>
 
