@@ -20,7 +20,7 @@
     </nav>
 
     <div class="container mt-4">
-        <div class="row">
+        <div class="row 1">
             <!-- Sidebar -->
             <div class="col-2">
                 <div class="list-group">
