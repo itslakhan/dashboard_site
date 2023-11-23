@@ -11,14 +11,14 @@
     <title>Show All  Trainer</title>
 </head>
 <body>
-    <div class="jumbotron"  style="background-color: black; color: white;">
-        <div class=" d-flex justify-content-between align-items-center ">
-            <h4 class="mx-auto">flex gym</h4>
-            <a href="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Add New Trainer</a>
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">flex gym</span>
+            <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#myModal">Add New Trainer</a>
         </div>
-    </div>   
+    </nav> 
 
-    <div class="container">
+    <div class="container mt-4">
         <div class="row"> 
             <div class="col-2">
         <div class="list-group">
@@ -26,7 +26,7 @@
             <a href="{{ route('member_list')}}" class="list-group-item list-group-item-action">view member</a>
         </div>
         
-            <div class="col-12">
+            <div class="col-10">
                 <table class="table">
                     <thead>
                         <tr>
